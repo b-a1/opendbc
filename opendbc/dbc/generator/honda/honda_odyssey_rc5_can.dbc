@@ -2,6 +2,12 @@ CM_ "IMPORT _honda_common.dbc";
 CM_ "IMPORT _bosch_2023_odyssey.dbc";
 CM_ "IMPORT _steering_sensors_b.dbc";
 
+BO_ 401 GEARBOX: 8 PCM
+ SG_ GEAR_SHIFTER : 5|6@0+ (1,0) [0|63] "" EON
+ SG_ GEAR : 35|4@0+ (1,0) [0|15] "" EON
+ SG_ COUNTER : 61|2@0+ (1,0) [0|3] "" EON
+ SG_ CHECKSUM : 59|4@0+ (1,0) [0|15] "" EON
+
 BO_ 419 GEARBOX: 8 PCM
  SG_ GEAR : 7|8@0+ (1,0) [0|255] "" EON
  SG_ GEAR_SHIFTER : 29|6@0+ (1,0) [0|63] "" EON

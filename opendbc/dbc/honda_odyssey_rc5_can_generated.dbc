@@ -246,6 +246,11 @@ BO_ 342 STEERING_SENSORS: 6 EPS
  SG_ CHECKSUM : 43|4@0+ (1,0) [0|15] "" EON
 
 CM_ "honda_odyssey_rc5_can.dbc starts here";
+BO_ 401 GEARBOX: 8 PCM
+ SG_ GEAR_SHIFTER : 5|6@0+ (1,0) [0|63] "" EON
+ SG_ GEAR : 35|4@0+ (1,0) [0|15] "" EON
+ SG_ COUNTER : 61|2@0+ (1,0) [0|3] "" EON
+ SG_ CHECKSUM : 59|4@0+ (1,0) [0|15] "" EON
 
 BO_ 419 GEARBOX: 8 PCM
  SG_ GEAR : 7|8@0+ (1,0) [0|255] "" EON
